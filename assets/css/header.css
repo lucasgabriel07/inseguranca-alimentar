@@ -2,9 +2,9 @@
     align-items: center;
     background: var(--cor5);
     display: flex;
-    max-width: 100%;
-    width: 100%;
-    padding: 25px 50px;
-    position: fixed;
     justify-content: space-evenly;
+    max-width: 100%;
+    padding: 25px 70px;
+    position: fixed;
+    width: 100%;
 }
