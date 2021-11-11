@@ -1,0 +1,20 @@
+.secao__inicio {
+  margin-top: 5rem;
+}
+
+.conteudo__inicio--pandemia {
+  display: flex;
+  justify-content: space-between;
+  align-items: top; 
+  gap: 2rem; 
+}
+
+.conteudo__grafico {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;  
+}
+

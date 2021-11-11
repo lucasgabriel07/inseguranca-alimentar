@@ -1,0 +1,25 @@
+.textos__inicio {
+  width: 40rem;
+  height: 40rem;  
+}
+
+.titulo--inicio {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+
+.texto {  
+  margin-bottom: 1.5rem; 
+}
+
+.titulo__grafico {
+  width: 80%;
+  text-align: center;
+  margin: 5rem auto; 
+  font-size: 2.25rem;  
+}
+
+.texto__grafico--inseguranca {
+  width: 30rem;
+  height: auto;
+}

@@ -10,8 +10,16 @@
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/container.css">
   <link rel="stylesheet" href="assets/css/pularNavegacao.css">
-  <link rel="stylesheet" href="assets/css/inicio.css">
+  
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/logo.css">
+  <link rel="stylesheet" href="assets/css/menu/menu-link.css">
+  <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
+  <link rel="stylesheet" href="assets/css/menu/menu-titulo.css">
 
+  <link rel="stylesheet" href="assets/css/inicio/inicio.css">
+  <link rel="stylesheet" href="assets/css/inicio/imagens-inicio.css">
+  <link rel="stylesheet" href="assets/css/inicio/textos-inicio.css">
   
 
   <!--Fontes-->  
@@ -22,9 +30,10 @@
   <!--Recurso para leitores de tela (curso de acessibilidade)-->
   <a class="pularNavegacao" href="#conteudoPrincipal">Pular para conteúdo principal</a>  
   <header class="header container">
+    <img class="logo" src="assets/img/logo.png" alt="">
     <nav class="menu">
       <ul class="menu__lista">
-        <li class="menu__titulo"><a class="menu__link" href="#inicio">Inicio</a></li>
+        <li class="menu__titulo"><a class="menu__link ativo" href="#inicio">Início</a></li>
         <li class="menu__titulo"><a class="menu__link" href="#brasil">Brasil</a></li>
         <li class="menu__titulo"><a class="menu__link" href="#maranhao">Maranhão</a></li>
         <li class="menu__titulo"><a class="menu__link" href="#acoes">Ações</a></li>        
@@ -33,7 +42,7 @@
   </header>
   <main>
     <section class="secao secao__inicio container" id="inicio">
-      <div class="conteudo__inicio">
+      <div class="conteudo__inicio--pandemia">
         <div class="textos__inicio">
           <h1 id="conteudoPrincipal" class="titulo titulo--inicio"><strong>Efeitos da pandemia</strong> na alimentação e na situação da segurança alimentar</h1>
           <p class="texto">
@@ -170,5 +179,6 @@
     <p class="texto texto--footer">2021. Todos os direitos reservados.</p>
   </footer>
   
+  <script src="js/highlights.js"></script>
 </body>
 </html>
