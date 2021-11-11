@@ -21,6 +21,9 @@
   <link rel="stylesheet" href="assets/css/inicio/imagens-inicio.css">
   <link rel="stylesheet" href="assets/css/inicio/textos-inicio.css">
   
+  <link rel="stylesheet" href="assets/css/brasil/brasil.css">
+
+  <link rel="stylesheet" href="assets/css/maranhao/maranhao.css">
 
   <!--Fontes-->  
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">   
@@ -45,10 +48,10 @@
       <div class="conteudo__inicio--pandemia">
         <div class="textos__inicio">
           <h1 id="conteudoPrincipal" class="titulo titulo--inicio"><strong>Efeitos da pandemia</strong> na alimentação e na situação da segurança alimentar</h1>
-          <p class="texto">
+          <p class="texto texto--inicio">
           A Organização das Nações Unidas (ONU) estimou que mais de 130 milhões de pessoas em todo mundo poderiam estar em situação de insegurança alimentar até o final de 2020. Estes dados integram relatório divulgado em junho de 2020 que analisou os potenciais impactos da pandemia da Covid-19 na segurança alimentar mundial.
           </p>
-          <p class="texto">
+          <p class="texto texto--inicio">
           Os dados divulgados pela ONU convergiam com a denúncia de muitos movimentos sociais e organizações da sociedade civil sobre a situação da segurança alimentar no Brasil nos primeiros meses da pandemia: as difi culdades de acesso aos alimentos ameaçavam a segurança alimentar de muitos domicílios brasileiros.
           </p>
         </div>        
@@ -66,37 +69,41 @@
     </section>
     <section class="secao secao__brasil container" id="brasil">
       <h2 class="titulo titulo--brasil">Segurança alimentar no Brasil</h2>
-      <p class="texto">
+      <p class="texto texto--brasil">
         Antes mesmo da pandemia de Covid-19 já se verificava uma tendência no Brasil de diminuição da segurança alimentar. O aumento dos níveis de insegurança alimentar foi influenciado pela combinação dos efeitos das crises econômica e política.As desigualdades quanto às situações de segurança alimentar são reforçadas quando analisamos as cinco macrorregiões brasileiras.       
         É possível atestar, as seguintes proporções de segurança alimentar nos domicílios situados nas cinco grandes regiões do Brasil: Sul 48,4%, Sudeste 46,5%, Centro-oeste 45,4%, Norte 32,3% e Nordeste 26,9%. Isso significa que enquanto as regiões Nordeste e Norte apresentam proporções de segurança alimentar inferior ao percentual nacional (40,6%), as regiões Sul, Sudeste e Centro-Oeste têm taxa de segurança alimentar superior.
       </p>
-      <h3 class="titulo">
+      <h3 class="titulo titulo--mapa">
         Segurança alimentar e desigualdades regionais
       </h3>
-      <img src="assets/img/desigualdades-regionais.png" alt="">
+      <img src="assets/img/desigualdades--regionais.png" alt="">
     </section>
     <section class="secao secao__maranhao container" id="maranhao">
-      <div>
-        <h2 class="titulo titulo--maranhao">Segurança alimentar no Maranhão</h2>
-        <p class="texto">
-        O Maranhão é o estado que tem o maior percentual de domicílios em situação de insegurança alimentar do país, segundo a Pesquisa de Orçamentos Familiares Contínua (POF) do Instituto Brasileiro de Geografia e Estatística (IBGE) realizada em 2017 - 2018. Ao todo, 62,2% dos lares maranhenses apresentavam situação de insegurança alimentar. O percentual representa mais de 1,3 milhões de residências. 
-        </p>
-        <p class="texto">
-        No Maranhão, 84% dos moradores em domicílios em situação de insegurança alimentar possuíam até um salário mínimo domiciliar per capita. A situação de insegurança alimentar é maior nos domicílios da zona rural do Maranhão, acusando maior proporção de moradores em domicílios em insegurança alimentar leve (39,2%) e moderada (17,9%).
-        </p>
-      </div>      
-      <img src="assets/img/graficos-zona-urbana-e-rural.png" alt="">
-      <div>
-        <p class="texto--destaque">
-          <strong>37,8%</strong> dos moradores em <strong>segurança alimentar</strong> e <strong>35,5%</strong> em <strong>insegurança alimentar</strong> no Maranhão encontram-se nas classes de rendimento de meio a um salário mínimo.
-        </p>
-        <p class="texto--destaque">
-          No Maranhão, <strong>os pardos representam 69,6%</strong> dos moradores em domicílios em insegurança alimentar.
-        </p>
+      <h2 class="titulo titulo--maranhao">Segurança alimentar no Maranhão</h2>
+      <div class="maranhao__dados">
+        <div class="dados__texto">
+          <p class="texto texto--maranhao">
+          O Maranhão é o estado que tem o maior percentual de domicílios em situação de insegurança alimentar do país, segundo a Pesquisa de Orçamentos Familiares Contínua (POF) do Instituto Brasileiro de Geografia e Estatística (IBGE) realizada em 2017 - 2018. Ao todo, 62,2% dos lares maranhenses apresentavam situação de insegurança alimentar. O percentual representa mais de 1,3 milhões de residências.
+          </p>
+          <p class="texto">
+          No Maranhão, 84% dos moradores em domicílios em situação de insegurança alimentar possuíam até um salário mínimo domiciliar per capita. A situação de insegurança alimentar é maior nos domicílios da zona rural do Maranhão, acusando maior proporção de moradores em domicílios em insegurança alimentar leve (39,2%) e moderada (17,9%).
+          </p>
+        </div>
+        <img class="dados__imagem" src="assets/img/graficos-zona-urbana-e-rural.png" alt="">
       </div>
-      <div>
-        <img src="assets/img/classes-e-rendimentos-no-maranhao.png" alt="">
-        <img src="assets/img/cor-ou-raca.png" alt="">
+      <div class="maranhao__rendimentoCor">
+        <div class="rendimentoCor__dados">
+          <p class="texto--destaque">
+            <strong>37,8%</strong> dos moradores em <strong>segurança alimentar</strong> e <strong>35,5%</strong> em <strong>insegurança alimentar</strong> no Maranhão encontram-se nas classes de rendimento de meio a um salário mínimo.
+          </p>
+          <img src="assets/img/classes-e-rendimentos-no-maranhao.png" alt="">
+        </div>
+        <div class="rendimentoCor__dados">
+          <p class="texto--destaque">
+            No Maranhão, <strong>os pardos representam 69,6%</strong> dos moradores em domicílios em insegurança alimentar.
+          </p>
+          <img src="assets/img/cor-ou-raca.png" alt="">
+        </div>
       </div>
     </section>
     <section class="secao secao__acoes container" id="acoes">

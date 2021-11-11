@@ -18,7 +18,7 @@ html {
 }
 
 .titulo {
-  font: 700 var(--fonte-titulo);
+  font: 400 2.75rem var(--fonte-titulo);
   color: var(--cor3);
 }
 

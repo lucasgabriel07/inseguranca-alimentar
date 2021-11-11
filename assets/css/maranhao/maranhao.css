@@ -1,0 +1,38 @@
+.titulo--maranhao {
+  margin-bottom: 5rem;
+  width: 10em;
+}
+
+.texto--maranhao {
+  margin-bottom: 1.5rem;
+}
+
+.titulo--mapa {
+  font-size: 2.25rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.maranhao__dados {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.maranhao__rendimentoCor {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+
+.rendimentoCor__dados {
+  width: 43%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+
+
