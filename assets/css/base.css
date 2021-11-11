@@ -28,7 +28,7 @@ html {
 }
 
 .texto--destaque {
-  font: 700 1.875rem var(--fonte-texto-destaque);
+  font: 400 1.875rem var(--fonte-texto-destaque);
   color: var(--cor1);
 }
 
