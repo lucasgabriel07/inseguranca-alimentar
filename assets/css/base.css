@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  
+  /*cores*/
+  --cor1: #003049;
+  --cor2: #D62828;
+  --cor3: #F77F00;
+  --cor4: #FCBF49;
+  --cor5: #EAE2B7;
+
+  /*fontes*/
+  --fonte-titulo: Rubik, sans-serif;
+  --fonte-texto: Rubik, sans-serif;
+  --fonte-texto-destaque: Rubik, sans-serif;
+}
+
+.titulo {
+  font: 700 var(--fonte-titulo);
+  color: var(--cor3);
+}
+
+.texto {
+  font: 400 1.5rem var(--fonte-texto);
+  color: #000;
+}
+
+.texto--destaque {
+  font: 700 2.25rem var(--fonte-texto-destaque);
+  color: var(--cor1);
+}
+
+
