@@ -4,3 +4,7 @@
     font-weight: bold;
     text-decoration: none;
 }
+
+.menu__link.ativo, .menu__link:hover {
+    border-bottom: var(--cor4) 3px solid;
+}
