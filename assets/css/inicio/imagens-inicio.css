@@ -1,9 +1,28 @@
 .imagem__inicio {
-  width: 30rem;
-  height: 25rem;
+  margin: 0 auto;
+  display: block;
+  width: 80%;
 }
 
-.grafico--inseguranca {
-  width: 28rem;
-  height: auto;
-}
+@media  screen and (min-width: 768px) {
+  .imagem__inicio {
+    width: 60%;
+    
+    /* padding-bottom: 3rem; */
+      
+  }
+
+} 
+
+@media  screen and (min-width: 963px) {
+  .imagem__inicio {
+    width: 40%;
+    
+    /* padding-bottom: 3rem; */
+      
+  }
+
+} 
+
+
+

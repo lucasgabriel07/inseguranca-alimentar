@@ -30,6 +30,8 @@
   <link rel="stylesheet" href="assets/css/acoes/acoes-programas.css">
   <link rel="stylesheet" href="assets/css/acoes/acoes-graficos.css">
 
+  <link rel="stylesheet" href="assets/css/solucoes/solucoes.css">
+
   <link rel="stylesheet" href="assets/css/footer/footer.css">
   <link rel="stylesheet" href="assets/css/footer/footer-inicio.css">
   <link rel="stylesheet" href="assets/css/footer/footer-time.css">
@@ -43,13 +45,16 @@
 </head>
 <body>
   <!--Recurso para leitores de tela (curso de acessibilidade)-->
-  <a class="pularNavegacao" href="#conteudoPrincipal">Pular para conteúdo principal</a>  
+  <a class="pularNavegacao" href="#conteudoPrincipal">Pular para conteúdo principal</a>
+
   <ul class="menu-hamburguer">
     <li class="menu-hamburguer__item"><a href="#inicio">Início</a></li>
     <li class="menu-hamburguer__item"><a href="#brasil">Brasil</a></li>
     <li class="menu-hamburguer__item"><a href="#maranhao">Maranhão</a></li>
-    <li class="menu-hamburguer__item"><a href="#acoes">Ações</a></li>        
+    <li class="menu-hamburguer__item"><a href="#acoes">Ações</a></li>      
+    <li class="menu-hamburguer__item"><a href="#solucoes">Soluções</a></li>  
   </ul>
+  
   <header class="header container">
     <img class="logo" src="assets/img/logo.png" alt="">
     <nav class="menu">
@@ -57,7 +62,8 @@
         <li class="menu__titulo"><a class="menu__link ativo" href="#inicio">Início</a></li>
         <li class="menu__titulo"><a class="menu__link" href="#brasil">Brasil</a></li>
         <li class="menu__titulo"><a class="menu__link" href="#maranhao">Maranhão</a></li>
-        <li class="menu__titulo"><a class="menu__link" href="#acoes">Ações</a></li>        
+        <li class="menu__titulo"><a class="menu__link" href="#acoes">Ações</a></li> 
+        <li class="menu__titulo"><a class="menu__link" href="#solucoes">Soluções</a></li>       
       </ul>
     </nav>
     <button class="hamburger">
@@ -65,31 +71,32 @@
     </button>
   </header>
   <main>
-    <section class="secao secao__inicio container" id="inicio">
-      <div class="conteudo__inicio--pandemia">
-        <div class="textos__inicio">
-          <h1 id="conteudoPrincipal" class="titulo titulo--inicio"><strong>Efeitos da pandemia</strong> na alimentação e na situação da segurança alimentar</h1>
-          <p class="texto texto--inicio">
-          A Organização das Nações Unidas (ONU) estimou que mais de 130 milhões de pessoas em todo mundo poderiam estar em situação de insegurança alimentar até o final de 2020. Estes dados integram relatório divulgado em junho de 2020 que analisou os potenciais impactos da pandemia da Covid-19 na segurança alimentar mundial.
-          </p>
-          <p class="texto texto--inicio">
-          Os dados divulgados pela ONU convergiam com a denúncia de muitos movimentos sociais e organizações da sociedade civil sobre a situação da segurança alimentar no Brasil nos primeiros meses da pandemia: as difi culdades de acesso aos alimentos ameaçavam a segurança alimentar de muitos domicílios brasileiros.
-          </p>
-        </div>        
+    <section class="secao secao__inicio" id="inicio">
+      <div class="container container--inicio">
+        <div class="conteudo__inicio">
+          <h1 id="conteudoPrincipal" class="titulo titulo--inicio">O combate à fome é uma responsabilidade global</h1>
+          <div class="textos__inicio">
+            <p class="texto texto--inicio ">
+              A Organização das Nações Unidas (ONU) estimou que mais de 130 milhões de pessoas em todo mundo poderiam estar em situação de insegurança alimentar até o final de 2020. Estes dados integram relatório divulgado em junho de 2020 que analisou os potenciais impactos da pandemia da Covid-19 na segurança alimentar mundial.
+            </p>
+          </div>
+        </div>
         <img class="imagem__inicio" src="assets/img/ilustracao.png" alt="">
-      </div>         
-      <h2 class="titulo titulo__grafico">
-        Há uma alta frequência de insegurança alimentar nos domicílios no período de pandemia. A segurança alimentar é de 40,6%
-      </h2>
-      <div class="conteudo__grafico">
+      </div>        
+    </section>
+    <section class="secao secao__brasil container" id="brasil">
+      <h2 class="titulo titulo--brasil">Segurança alimentar no Brasil</h2>
+      <p class="texto texto--brasil">
+        Os dados divulgados pela ONU convergiam com a denúncia de muitos movimentos sociais e organizações da sociedade civil sobre a situação da segurança alimentar no Brasil nos primeiros meses da pandemia: as dificuldades de acesso aos alimentos ameaçavam a segurança alimentar de muitos domicílios brasileiros.
+      </p> 
+      <h3 class="titulo titulo--grafico--inseguranca">Há uma alta frequência de insegurança alimentar nos domicílios no período de pandemia. A segurança alimentar 
+      é de 40,6%</h3> 
+      <div class="conteudo__grafico--inseguranca">
         <p class="texto--destaque texto__grafico--inseguranca">
           Os marcadores de desiguadade de<strong> gênero, raça ou cor, renda, contextos regionais, territoriais e determinadas características domiciliares </strong>tornaram alguns domicílios mais suscetiveis à insegurança alimentar.
         </p>
         <img class="grafico--inseguranca" src="assets/img/grafico-inseguranca-alimentar.png" alt="">
-      </div>      
-    </section>
-    <section class="secao secao__brasil container" id="brasil">
-      <h2 class="titulo titulo--brasil">Segurança alimentar no Brasil</h2>
+      </div>         
       <p class="texto texto--brasil">
         Antes mesmo da pandemia de Covid-19 já se verificava uma tendência no Brasil de diminuição da segurança alimentar. O aumento dos níveis de insegurança alimentar foi influenciado pela combinação dos efeitos das crises econômica e política.As desigualdades quanto às situações de segurança alimentar são reforçadas quando analisamos as cinco macrorregiões brasileiras.       
         É possível atestar, as seguintes proporções de segurança alimentar nos domicílios situados nas cinco grandes regiões do Brasil: Sul 48,4%, Sudeste 46,5%, Centro-oeste 45,4%, Norte 32,3% e Nordeste 26,9%. Isso significa que enquanto as regiões Nordeste e Norte apresentam proporções de segurança alimentar inferior ao percentual nacional (40,6%), as regiões Sul, Sudeste e Centro-Oeste têm taxa de segurança alimentar superior.
@@ -222,6 +229,48 @@
         <img class="acoes__graficos__imagem" src="assets/img/estado-nutricional-no-maranhao-3.png" alt="">
         <img class="acoes__graficos__imagem" src="assets/img/estado-nutricional-no-maranhao-4.png" alt="">
       </div>
+    </section>
+    <section class="secao secao__acoes container" id="solucoes">
+      <h2 class="titulo titulo--solucoes">Possíveis soluções</h2>
+      <p class="texto texto--solucoes">Vimos que até 2018 o Maranhão era o estado com o maior número de domicílios em situação de insegurança alimentar do Brasil. No entanto, ações do Governo do Estado contribuíram para melhorar significativamente esse cenário, especialmente entre crianças e adolescentes. A partir da experiência maranhense e de publicações da Organização da Nações Unidas, chegamos a algumas possíveis soluções para o problema.</p>
+      <ul class="listaSolucoes">
+        <li>
+          <div class="listaSolucoes__solucao">
+            <img class="listaSolucoes__imagem" src="assets/img/producao-sustentavel.png" alt="">
+            <p class="texto texto--listaSolucoes">Produção sustentável de alimentos</p>
+          </div>
+        </li>
+        <li>
+          <div class="listaSolucoes__solucao">
+            <img class="listaSolucoes__imagem" src="assets/img/coop-internacional.png" alt="">
+            <p class="texto texto--listaSolucoes">Cooperação internacional</p>
+          </div>
+        </li>
+        <li>
+          <div class="listaSolucoes__solucao">
+            <img class="listaSolucoes__imagem" src="assets/img/desperdicio.png" alt="">
+            <p class="texto texto--listaSolucoes">Programas de mitigação de desperdício de gêneros alimentícios</p>
+          </div>
+        </li>
+        <li>
+          <div class="listaSolucoes__solucao">
+            <img class="listaSolucoes__imagem" src="assets/img/produtores-rurais.png" alt="">
+            <p class="texto texto--listaSolucoes">Incentivo ao aumento da produtividade e renda dos pequenos produtores rurais</p>
+          </div>
+        </li>
+        <li>
+          <div class="listaSolucoes__solucao">
+            <img class="listaSolucoes__imagem" src="assets/img/transferencia-renda.png" alt="">
+            <p class="texto texto--listaSolucoes">Políticas Públicas de transferência de renda</p>
+          </div>
+        </li>
+        <li>
+          <div class="listaSolucoes__solucao">
+            <img class="listaSolucoes__imagem" src="assets/img/nutricao.jpg" alt="">
+            <p class="texto texto--listaSolucoes">Oferta de refeições nutricionalmente adequadas a preços acessíveis</p>
+          </div>
+        </li>
+      </ul>
     </section>
   </main>
   <footer class="footer">
