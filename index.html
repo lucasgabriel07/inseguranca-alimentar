@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="assets/css/menu/menu-link.css">
   <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
   <link rel="stylesheet" href="assets/css/menu/menu-titulo.css">
+  <link rel="stylesheet" href="assets/css/menu/menu-hamburguer.css">
 
   <link rel="stylesheet" href="assets/css/inicio/inicio.css">
   <link rel="stylesheet" href="assets/css/inicio/imagens-inicio.css">
@@ -43,6 +44,12 @@
 <body>
   <!--Recurso para leitores de tela (curso de acessibilidade)-->
   <a class="pularNavegacao" href="#conteudoPrincipal">Pular para conteúdo principal</a>  
+  <ul class="menu-hamburguer">
+    <li class="menu-hamburguer__item"><a href="#inicio">Início</a></li>
+    <li class="menu-hamburguer__item"><a href="#brasil">Brasil</a></li>
+    <li class="menu-hamburguer__item"><a href="#maranhao">Maranhão</a></li>
+    <li class="menu-hamburguer__item"><a href="#acoes">Ações</a></li>        
+  </ul>
   <header class="header container">
     <img class="logo" src="assets/img/logo.png" alt="">
     <nav class="menu">
@@ -53,6 +60,9 @@
         <li class="menu__titulo"><a class="menu__link" href="#acoes">Ações</a></li>        
       </ul>
     </nav>
+    <button class="hamburger">
+      <i class="menuIcon material-icons"><img src="assets/img/menu-hamburguer.png"> </i>
+    </button>
   </header>
   <main>
     <section class="secao secao__inicio container" id="inicio">
@@ -219,7 +229,7 @@
       <p class="texto texto--footer">Site desenvolvido pelo time do Programa Trilhas - Inova Maranhão:</p>
       <ul class="footer__time">
         <li class="membro">
-          <a class="texto link" href="#" target="_blank"><div class="logo-linkedin"></div>Ayla Andrade</a>
+          <a class="texto link" href="https://www.linkedin.com/in/laura-andrade-910548192/" target="_blank"><div class="logo-linkedin"></div>Ayla Andrade</a>
         </li>
         <li class="membro">
           <a class="texto link" href="#" target="_blank"><div class="logo-linkedin"></div>Gisnara Pires</a></li>
@@ -227,22 +237,22 @@
           <a class="texto link" href="#" target="_blank"><div class="logo-linkedin"></div>Gustavo Ramon</a>
         </li>
         <li class="membro">
-          <a class="texto link" href="#" target="_blank"><div class="logo-linkedin"></div>Lucas Gabriel</a>
+          <a class="texto link" href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/" target="_blank"><div class="logo-linkedin"></div>Lucas Gabriel</a>
         </li>
         <li class="membro">
-          <a class="texto link" href="#" target="_blank"><div class="logo-linkedin"></div>Maíra Costa</a>
+          <a class="texto link" href="https://www.linkedin.com/in/ma%C3%ADra-costa-a6a00421b/" target="_blank"><div class="logo-linkedin"></div>Maíra Costa</a>
         </li>
         <li class="membro">
-          <a class="texto link" href="#" target="_blank"><div class="logo-linkedin"></div>Maria Silveira</a>
+          <a class="texto link" href="https://www.linkedin.com/in/maria-silveira-171b3919b/" target="_blank"><div class="logo-linkedin"></div>Maria Silveira</a>
         </li>
         <li class="membro">
-          <a class="texto link" href="#" target="_blank"><div class="logo-linkedin"></div>Mylena Azevedo</a>
+          <a class="texto link" href="https://www.linkedin.com/in/mylena-azevedo-1050335b/" target="_blank"><div class="logo-linkedin"></div>Mylena Azevedo</a>
         </li>
         <li class="membro">
           <a class="texto link" href="#" target="_blank"><div class="logo-linkedin"></div>Omar Belchior</a>
         </li>
         <li class="membro">
-          <a class="texto link" href="#" target="_blank"><div class="logo-linkedin"></div>Vitor Dutra</a>
+          <a class="texto link" href="https://www.linkedin.com/in/vitor-dutra/" target="_blank"><div class="logo-linkedin"></div>Vitor Dutra</a>
         </li>
       </ul>
     </div>
@@ -252,5 +262,6 @@
   </footer>
   
   <script src="js/highlights.js"></script>
+  <script src="js/menu-hamburguer.js"></script>
 </body>
 </html>
