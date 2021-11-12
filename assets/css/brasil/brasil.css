@@ -1,14 +1,32 @@
 .titulo--brasil {
-  margin-bottom: 5rem;
-  width: 10em;
+  margin-bottom: 2.875rem;
+  width: 12em;
 }
 
 .texto--brasil {
-  margin-bottom: 8rem;
+  margin-bottom: 2.875rem;
 }
 
-.titulo--mapa {
-  font-size: 2.25rem;
+.titulo--mapa--brasil {
+  font-size: 1.125rem;
+  margin: 0 auto 2.875rem;
   text-align: center;
-  margin-bottom: 4rem;
+  width: 20em;
+}
+
+@media screen and (min-width: 963px) {
+  .titulo--brasil {
+    margin-bottom: 5rem;
+  }
+  
+  .texto--brasil {
+    margin-bottom: 8rem;
+  }
+  
+  .titulo--mapa--brasil {
+    font-size: 2.25rem;
+    margin-bottom: 4rem;
+    width: 100%
+  }  
+  
 }

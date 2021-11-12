@@ -1,12 +1,11 @@
 .programas {
   background: var(--cor5);
-  padding: 4rem 3rem;
+  padding: 2rem 1.5rem;
   border-radius: 30px;
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(5, auto);
-  gap: 2rem;
-  margin-bottom: 5rem;
+  grid-template-rows: repeat(10, auto);
+  gap: 1rem;
+  margin-bottom: 2.875rem;
 }
 
 .programa {
@@ -14,13 +13,41 @@
 }
 
 .programa__imagem {
-  width: 75px;
-  height: 75px;
+  width: 30px;
+  height: 30px;
   margin-right: 1rem;
 }
 
 .programa__titulo {
-  font: 700 1.5rem var(--fonte-texto);
+  font: 700 0.75rem var(--fonte-texto);
   color: var(--cor1);
   margin-bottom: 0.5em;
+}
+
+.texto--programa {
+  font-size: 0.75rem;
+}
+
+@media screen and (min-width:963px){
+  .programas {
+    padding: 4rem 3rem;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
+    gap: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .programa__imagem {
+    width: 75px;
+    height: 75px;
+    margin-right: 1rem;
+  }
+  .programa__titulo {
+    font-size: 1.5rem;
+  }
+
+  .texto--programa {
+    font-size: 1rem;
+  }
+  
 }

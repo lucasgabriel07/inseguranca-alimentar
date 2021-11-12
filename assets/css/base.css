@@ -18,18 +18,30 @@ html {
 }
 
 .titulo {
-  font: 400 2.75rem var(--fonte-titulo);
+  font: 500 1.25rem var(--fonte-titulo);
   color: var(--cor3);
 }
 
 .texto {
-  font: 400 1.5rem var(--fonte-texto);
+  font: 400 1rem var(--fonte-texto);
   color: #000;
 }
 
 .texto--destaque {
-  font: 400 1.875rem var(--fonte-texto-destaque);
+  font: 400 1rem var(--fonte-texto-destaque);
   color: var(--cor1);
 }
 
+@media screen and (min-width:963px){
+  
+  .titulo {
+    font-size: 2.75rem;
+  }
+  .texto {
+    font-size: 1.5rem;
+  } 
 
+  .texto--destaque {
+    font-size: 1.875rem;
+  }
+}
