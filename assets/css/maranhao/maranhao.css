@@ -1,38 +1,63 @@
 .titulo--maranhao {
-  margin-bottom: 5rem;
-  width: 10em;
+  margin-bottom: 2.875rem;
+  width: 12em;
 }
 
 .texto--maranhao {
-  margin-bottom: 1.5rem;
-}
-
-.titulo--mapa {
-  font-size: 2.25rem;
-  text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 1.5em;
 }
 
 .maranhao__dados {
-  display: flex;
-  justify-content: space-between;
-  gap: 4rem;
+  margin-bottom: 2.875rem;
 }
 
-.maranhao__rendimentoCor {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 8rem;
+.dados__texto {
+  margin-bottom: 2.875rem;
 }
 
 .rendimentoCor__dados {
-  width: 47%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 3rem;
+  align-items: center;
+  gap: 2.875rem;
+  margin-top: 2.875rem;
+}
+.rendimentoCor__dados .texto--destaque{
+  width: 15rem;
 }
 
+@media screen and (min-width: 963px) {
+  .titulo--maranhao {
+    margin-bottom: 5rem;
+  }
 
+  .maranhao__dados {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-bottom: 8rem;
+  }
+
+  .dados__texto {
+    margin-bottom: 0;
+  }
+
+  .maranhao__rendimentoCor {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .rendimentoCor__dados {
+    width: 47%;
+    justify-content: space-between;
+    gap: 5rem;
+    margin: 0;
+  }
+
+  .rendimentoCor__dados .texto--destaque{
+    width: 100%;
+  }
+}
 

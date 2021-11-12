@@ -1,6 +1,22 @@
-.acoes__titulo__graficos {
+.acoes__graficos__titulo {
   text-align: center;
-  font: 700 1.5rem var(--fonte-texto);
+  font: 700 1rem var(--fonte-texto);
   color: var(--cor1);
-  margin-bottom: 3rem;
+  margin-bottom: 2.875rem;
+}
+
+.acoes__graficos__imagem{
+  margin-bottom: 2.875rem;
+}
+
+@media screen and (min-width:963px){
+  .acoes__graficos__titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .acoes__graficos__imagem{
+    margin-bottom: 5rem;
+  }
 }
