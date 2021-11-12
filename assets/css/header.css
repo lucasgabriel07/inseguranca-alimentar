@@ -1,6 +1,6 @@
 .header {
     align-items: center;
-    background: var(--cor5);
+    background: var(--cor1);
     display: flex;
     justify-content: space-evenly;
     max-width: 100%;
@@ -8,6 +8,7 @@
     position: fixed;
     width: 100%;
     margin: 0;
+    z-index: 100;
 }
 
 .container--header {

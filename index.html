@@ -37,6 +37,8 @@
   <link rel="stylesheet" href="assets/css/footer/footer-time.css">
   <link rel="stylesheet" href="assets/css/footer/footer-copyright.css">
 
+  <link rel="stylesheet" href="assets/css/animacao.css">
+
   <!--Fontes-->  
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,9 +81,9 @@
             <p class="texto texto--inicio ">
               A Organização das Nações Unidas (ONU) estimou que mais de 130 milhões de pessoas em todo mundo poderiam estar em situação de insegurança alimentar até o final de 2020. Estes dados integram relatório divulgado em junho de 2020 que analisou os potenciais impactos da pandemia da Covid-19 na segurança alimentar mundial.
             </p>
+            <img class="imagem__inicio" src="assets/img/ilustracao.png" alt="">
           </div>
         </div>
-        <img class="imagem__inicio" src="assets/img/ilustracao.png" alt="">
       </div>        
     </section>
     <section class="secao secao__brasil container" id="brasil">
@@ -92,10 +94,10 @@
       <h3 class="titulo titulo--grafico--inseguranca">Há uma alta frequência de insegurança alimentar nos domicílios no período de pandemia. A segurança alimentar 
       é de 40,6%</h3> 
       <div class="conteudo__grafico--inseguranca">
-        <p class="texto--destaque texto__grafico--inseguranca">
+        <p class="texto--destaque texto__grafico--inseguranca" data-anime="rigth">
           Os marcadores de desiguadade de<strong> gênero, raça ou cor, renda, contextos regionais, territoriais e determinadas características domiciliares </strong>tornaram alguns domicílios mais suscetiveis à insegurança alimentar.
         </p>
-        <img class="grafico--inseguranca" src="assets/img/grafico-inseguranca-alimentar.png" alt="">
+        <img class="grafico--inseguranca" src="assets/img/grafico-inseguranca-alimentar.png" alt="" data-anime="left">
       </div>         
       <p class="texto texto--brasil">
         Antes mesmo da pandemia de Covid-19 já se verificava uma tendência no Brasil de diminuição da segurança alimentar. O aumento dos níveis de insegurança alimentar foi influenciado pela combinação dos efeitos das crises econômica e política.As desigualdades quanto às situações de segurança alimentar são reforçadas quando analisamos as cinco macrorregiões brasileiras.       
@@ -104,7 +106,7 @@
       <h3 class="titulo titulo--mapa--brasil">
         Segurança alimentar e desigualdades regionais
       </h3>
-      <img src="assets/img/desigualdades--regionais.png" alt="">
+      <img src="assets/img/desigualdades--regionais.png" alt="" data-anime="top">
     </section>
     <section class="secao secao__maranhao container" id="maranhao">
       <h2 class="titulo titulo--maranhao">Segurança alimentar no Maranhão</h2>
@@ -117,20 +119,20 @@
           No Maranhão, 84% dos moradores em domicílios em situação de insegurança alimentar possuíam até um salário mínimo domiciliar per capita. A situação de insegurança alimentar é maior nos domicílios da zona rural do Maranhão, acusando maior proporção de moradores em domicílios em insegurança alimentar leve (39,2%) e moderada (17,9%).
           </p>
         </div>
-        <img class="dados__imagem" src="assets/img/graficos-zona-urbana-e-rural.png" alt="">
+        <img class="dados__imagem" src="assets/img/graficos-zona-urbana-e-rural.png" alt="" data-anime="rigth">
       </div>
       <div class="maranhao__rendimentoCor">
         <div class="rendimentoCor__dados">
           <p class="texto--destaque">
             <strong>37,8%</strong> dos moradores em <strong>segurança alimentar</strong> e <strong>35,5%</strong> em <strong>insegurança alimentar</strong> no Maranhão encontram-se nas classes de rendimento de meio a um salário mínimo.
           </p>
-          <img src="assets/img/classes-e-rendimentos-no-maranhao.png" alt="">
+          <img src="assets/img/classes-e-rendimentos-no-maranhao.png" alt="" data-anime="left">
         </div>
         <div class="rendimentoCor__dados">
           <p class="texto--destaque">
             No Maranhão, <strong>os pardos representam 69,6%</strong> dos moradores em domicílios em insegurança alimentar.
           </p>
-          <img src="assets/img/cor-ou-raca.png" alt="">
+          <img src="assets/img/cor-ou-raca.png" alt="" data-anime="rigth">
         </div>
       </div>
     </section>
@@ -144,79 +146,84 @@
       <p class="texto--destaque texto--destaque--acoes">
         Durante a pandemia da Covid 19, as <strong>ações de enfrentamento à fome se intensificaram no Maranhão</strong> levando ao reforço dos programas já existentes e implementação de novos
       </p>
-      <ul class="programas">
-        <li class="programa">
-          <img src="assets/img/capacitacao-dos-municipios.png" alt="" class="programa__imagem">
-          <div class="programa__conteudo">
-            <h3 class="programa__titulo">Capacitação dos Municípios</h3>
-            <p class="texto texto--programa">Capacitação para adesão ao Sisan, além do Selo Sisan “Mais Segurança Alimentar”.</p>
-          </div>
-        </li>
-        <li class="programa">
-          <img src="assets/img/restaurante-popular.png" alt="" class="programa__imagem">
-          <div class="programa__conteudo">
-            <h3 class="programa__titulo">Restaurante Popular</h3>
-            <p class="texto texto--programa">Os restaurantes populares facilitam o acesso à alimentação de qualidade do seu preço baixo.</p>
-          </div>
-        </li>
-        <li class="programa">
-          <img src="assets/img/restaurante-da-educacao.png" alt="" class="programa__imagem">
-          <div class="programa__conteudo">
-            <h3 class="programa__titulo">Restaurante da Educação</h3>
-            <p class="texto texto--programa">Restaurante popular voltado para servidores e estudantes da eduação básica das redes Estadual e Federal e do ensino superior em instituições localizadas na Unidade Regional de Educação de São Luís.</p>
-          </div>
-        </li>
-        <li class="programa">
-          <img src="assets/img/banco-de-alimentos.png" alt="" class="programa__imagem">
-          <div class="programa__conteudo">
-            <h3 class="programa__titulo">Banco de Alimentos</h3>
-            <p class="texto texto--programa">Tem o objetivo de mitigar o desperfício e proporcionar alimentação de qualidade para quem precisa, garantindo a segurança alimentar das famílias no Maranhão.</p>
-          </div>
-        </li>
-        <li class="programa">
-          <img src="assets/img/programa-vale-gas.png" alt="" class="programa__imagem">
-          <div class="programa__conteudo">
-            <h3 class="programa__titulo">Programa Vale Gás</h3>
-            <p class="texto texto--programa">Forma de combater o aumento da fome ao atender mais de 119 mil famílias com gás de cozinha.</p>
-          </div>
-        </li>
-        <li class="programa">
-          <img src="assets/img/cozinha-comunitaria.png" alt="" class="programa__imagem">
-          <div class="programa__conteudo">
-            <h3 class="programa__titulo">Cozinha Comunitária</h3>
-            <p class="texto texto--programa">As cozinhas comunitárias visam oferecer refeições gratuitas para os maranhenses em situação de risco.</p>
-          </div>
-        </li>
-        <li class="programa">
-          <img src="assets/img/paa-leite.png" alt="" class="programa__imagem">
-          <div class="programa__conteudo">
-            <h3 class="programa__titulo">PAA Leite</h3>
-            <p class="texto texto--programa">Consiste na aquisição de leite de vaca
-            e de cabra, oriundos da produção idependente de agricultores familiares, que atendam aos requisitos de controle de qualidade.</p>
-          </div>
-        </li>
-        <li class="programa">
-          <img src="assets/img/programa-comida-na-mesa.png" alt="" class="programa__imagem">
-          <div class="programa__conteudo">
-            <h3 class="programa__titulo">Programa Comida na Mesa</h3>
-            <p class="texto texto--programa">Conjunto de ações do governo durante a pandemia para geração de renda e garantia do acesso à alimentação.</p>
-          </div>
-        </li>
-        <li class="programa">
-          <img src="assets/img/plano-de-acoes-de-boas-praticas.png" alt="" class="programa__imagem">
-          <div class="programa__conteudo">
-            <h3 class="programa__titulo">Plano de ações de Boas Práticas</h3>
-            <p class="texto texto--programa">Conjunto de medidas para evitar avanço do coronavirús e para proporcionar melhoria sanitária de instalações.</p>
-          </div>
-        </li>
-        <li class="programa">
-          <img src="assets/img/programa-mais-feiras.png" alt="" class="programa__imagem">
-          <div class="programa__conteudo">
-            <h3 class="programa__titulo">Programa Mais Feiras</h3>
-            <p class="texto texto--programa">Tem o objetivo de proporcionar ao agricultor familiar um espaço de comercialização dos seus produtos.</p>
-          </div>
-        </li>
-      </ul>
+
+      <div>
+        <ul class="programas">
+          <li class="programa" data-anime="left">
+            <img src="assets/img/capacitacao-dos-municipios.png" alt="" class="programa__imagem">
+            <div class="programa__conteudo">
+              <h3 class="programa__titulo">Capacitação dos Municípios</h3>
+              <p class="texto texto--programa">Capacitação para adesão ao Sisan, além do Selo Sisan “Mais Segurança Alimentar”.</p>
+            </div>
+          </li>
+          <li class="programa" data-anime="rigth">
+            <img src="assets/img/restaurante-popular.png" alt="" class="programa__imagem">
+            <div class="programa__conteudo">
+              <h3 class="programa__titulo">Restaurante Popular</h3>
+              <p class="texto texto--programa">Os restaurantes populares facilitam o acesso à alimentação de qualidade do seu preço baixo.</p>
+            </div>
+          </li>
+          <li class="programa" data-anime="left">
+            <img src="assets/img/restaurante-da-educacao.png" alt="" class="programa__imagem">
+            <div class="programa__conteudo">
+              <h3 class="programa__titulo">Restaurante da Educação</h3>
+              <p class="texto texto--programa">Restaurante popular voltado para servidores e estudantes da eduação básica das redes Estadual e Federal e do ensino superior em instituições localizadas na Unidade Regional de Educação de São Luís.</p>
+            </div>
+          </li>
+          <li class="programa" data-anime="rigth">
+            <img src="assets/img/banco-de-alimentos.png" alt="" class="programa__imagem">
+            <div class="programa__conteudo">
+              <h3 class="programa__titulo">Banco de Alimentos</h3>
+              <p class="texto texto--programa">Tem o objetivo de mitigar o desperfício e proporcionar alimentação de qualidade para quem precisa, garantindo a segurança alimentar das famílias no Maranhão.</p>
+            </div>
+          </li>
+          <li class="programa" data-anime="left">
+            <img src="assets/img/programa-vale-gas.png" alt="" class="programa__imagem">
+            <div class="programa__conteudo">
+              <h3 class="programa__titulo">Programa Vale Gás</h3>
+              <p class="texto texto--programa">Forma de combater o aumento da fome ao atender mais de 119 mil famílias com gás de cozinha.</p>
+            </div>
+          </li>
+          <li class="programa" data-anime="rigth">
+            <img src="assets/img/cozinha-comunitaria.png" alt="" class="programa__imagem">
+            <div class="programa__conteudo">
+              <h3 class="programa__titulo">Cozinha Comunitária</h3>
+              <p class="texto texto--programa">As cozinhas comunitárias visam oferecer refeições gratuitas para os maranhenses em situação de risco.</p>
+            </div>
+          </li>
+          <li class="programa" data-anime="left">
+            <img src="assets/img/paa-leite.png" alt="" class="programa__imagem">
+            <div class="programa__conteudo">
+              <h3 class="programa__titulo">PAA Leite</h3>
+              <p class="texto texto--programa">Consiste na aquisição de leite de vaca
+              e de cabra, oriundos da produção idependente de agricultores familiares, que atendam aos requisitos de controle de qualidade.</p>
+            </div>
+          </li>
+          <li class="programa" data-anime="rigth">
+            <img src="assets/img/programa-comida-na-mesa.png" alt="" class="programa__imagem">
+            <div class="programa__conteudo">
+              <h3 class="programa__titulo">Programa Comida na Mesa</h3>
+              <p class="texto texto--programa">Conjunto de ações do governo durante a pandemia para geração de renda e garantia do acesso à alimentação.</p>
+            </div>
+          </li>
+          <li class="programa" data-anime="left">
+            <img src="assets/img/plano-de-acoes-de-boas-praticas.png" alt="" class="programa__imagem">
+            <div class="programa__conteudo">
+              <h3 class="programa__titulo">Plano de ações de Boas Práticas</h3>
+              <p class="texto texto--programa">Conjunto de medidas para evitar avanço do coronavirús e para proporcionar melhoria sanitária de instalações.</p>
+            </div>
+          </li>
+          <li class="programa" data-anime="rigth">
+            <img src="assets/img/programa-mais-feiras.png" alt="" class="programa__imagem">
+            <div class="programa__conteudo">
+              <h3 class="programa__titulo">Programa Mais Feiras</h3>
+              <p class="texto texto--programa">Tem o objetivo de proporcionar ao agricultor familiar um espaço de comercialização dos seus produtos.</p>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+      
       <p class="texto texto--acoes">
         O estado nutricional adequado (eutrofia) de crianças no Maranhão é o terceiro maior dentre as nove UFs do Nordeste, no ano de 2020, com 57,7%. O Maranhão foi o estado do Brasil com o maior percentual de adolescentes eutróficos em 2020, com 71,5% nessa condição. Em relação ao sobrepeso e obesidade nessa fase, o Maranhão foi o estado com os menores percentuais (16,9% e 6,7%, respectivamente). Já em adultos e idosos, o percentual de sobrepeso é preocupante, chegando a aproximadamente 36,2% e 39,6%, respectivamente.
       </p>
@@ -224,53 +231,55 @@
         Estado nutricional no Maranhao, por grupos de fases de vida, em 2020
       </h3>
       <div class="acoes__graficos__imagens">
-        <img class="acoes__graficos__imagem" src="assets/img/estado-nutricional-no-maranhao-1.png" alt="">
-        <img class="acoes__graficos__imagem" src="assets/img/estado-nutricional-no-maranhao-2.png" alt="">
-        <img class="acoes__graficos__imagem" src="assets/img/estado-nutricional-no-maranhao-3.png" alt="">
-        <img class="acoes__graficos__imagem" src="assets/img/estado-nutricional-no-maranhao-4.png" alt="">
+        <img class="acoes__graficos__imagem" src="assets/img/estado-nutricional-no-maranhao-1.png" alt="" data-anime="left">
+        <img class="acoes__graficos__imagem" src="assets/img/estado-nutricional-no-maranhao-2.png" alt=""data-anime="left">
+        <img class="acoes__graficos__imagem" src="assets/img/estado-nutricional-no-maranhao-3.png" alt="" data-anime="rigth">
+        <img class="acoes__graficos__imagem" src="assets/img/estado-nutricional-no-maranhao-4.png" alt="" data-anime="rigth">
       </div>
     </section>
     <section class="secao secao__acoes container" id="solucoes">
       <h2 class="titulo titulo--solucoes">Possíveis soluções</h2>
       <p class="texto texto--solucoes">Vimos que até 2018 o Maranhão era o estado com o maior número de domicílios em situação de insegurança alimentar do Brasil. No entanto, ações do Governo do Estado contribuíram para melhorar significativamente esse cenário, especialmente entre crianças e adolescentes. A partir da experiência maranhense e de publicações da Organização da Nações Unidas, chegamos a algumas possíveis soluções para o problema.</p>
-      <ul class="listaSolucoes">
-        <li>
-          <div class="listaSolucoes__solucao">
-            <img class="listaSolucoes__imagem" src="assets/img/producao-sustentavel.png" alt="">
-            <p class="texto texto--listaSolucoes">Produção sustentável de alimentos</p>
-          </div>
-        </li>
-        <li>
-          <div class="listaSolucoes__solucao">
-            <img class="listaSolucoes__imagem" src="assets/img/coop-internacional.png" alt="">
-            <p class="texto texto--listaSolucoes">Cooperação internacional</p>
-          </div>
-        </li>
-        <li>
-          <div class="listaSolucoes__solucao">
-            <img class="listaSolucoes__imagem" src="assets/img/desperdicio.png" alt="">
-            <p class="texto texto--listaSolucoes">Programas de mitigação de desperdício de gêneros alimentícios</p>
-          </div>
-        </li>
-        <li>
-          <div class="listaSolucoes__solucao">
-            <img class="listaSolucoes__imagem" src="assets/img/produtores-rurais.png" alt="">
-            <p class="texto texto--listaSolucoes">Incentivo ao aumento da produtividade e renda dos pequenos produtores rurais</p>
-          </div>
-        </li>
-        <li>
-          <div class="listaSolucoes__solucao">
-            <img class="listaSolucoes__imagem" src="assets/img/transferencia-renda.png" alt="">
-            <p class="texto texto--listaSolucoes">Políticas Públicas de transferência de renda</p>
-          </div>
-        </li>
-        <li>
-          <div class="listaSolucoes__solucao">
-            <img class="listaSolucoes__imagem" src="assets/img/nutricao.jpg" alt="">
-            <p class="texto texto--listaSolucoes">Oferta de refeições nutricionalmente adequadas a preços acessíveis</p>
-          </div>
-        </li>
-      </ul>
+      <div>
+        <ul class="listaSolucoes">
+          <li>
+            <div class="listaSolucoes__solucao" data-anime="left">
+              <img class="listaSolucoes__imagem" src="assets/img/producao-sustentavel.png" alt="">
+              <p class="texto texto--listaSolucoes">Produção sustentável de alimentos</p>
+            </div>
+          </li>
+          <li>
+            <div class="listaSolucoes__solucao" data-anime="rigth">
+              <img class="listaSolucoes__imagem" src="assets/img/coop-internacional.png" alt="">
+              <p class="texto texto--listaSolucoes">Cooperação internacional</p>
+            </div>
+          </li>
+          <li>
+            <div class="listaSolucoes__solucao" data-anime="left">
+              <img class="listaSolucoes__imagem" src="assets/img/desperdicio.png" alt="">
+              <p class="texto texto--listaSolucoes">Programas de mitigação de desperdício de gêneros alimentícios</p>
+            </div>
+          </li>
+          <li>
+            <div class="listaSolucoes__solucao" data-anime="rigth">
+              <img class="listaSolucoes__imagem" src="assets/img/produtores-rurais.png" alt="">
+              <p class="texto texto--listaSolucoes">Incentivo ao aumento da produtividade e renda dos pequenos produtores rurais</p>
+            </div>
+          </li>
+          <li>
+            <div class="listaSolucoes__solucao" data-anime="left">
+              <img class="listaSolucoes__imagem" src="assets/img/transferencia-renda.png" alt="">
+              <p class="texto texto--listaSolucoes">Políticas Públicas de transferência de renda</p>
+            </div>
+          </li>
+          <li>
+            <div class="listaSolucoes__solucao" data-anime="rigth">
+              <img class="listaSolucoes__imagem" src="assets/img/nutricao.jpg" alt="">
+              <p class="texto texto--listaSolucoes">Oferta de refeições nutricionalmente adequadas a preços acessíveis</p>
+            </div>
+          </li>
+        </ul>
+      </div>      
     </section>
   </main>
   <footer class="footer">
@@ -312,5 +321,6 @@
   
   <script src="js/highlights.js"></script>
   <script src="js/menu-hamburguer.js"></script>
+  <script src="js/animate.js"></script>
 </body>
 </html>

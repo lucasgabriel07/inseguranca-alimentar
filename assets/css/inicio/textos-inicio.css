@@ -26,8 +26,11 @@
 }
 
 @media  screen and (min-width: 963px) {
-  .textos__inicio {    
-    width: 70%;  
+  .textos__inicio { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-end; 
+      
     padding-bottom: 0;  
   }
   
@@ -38,7 +41,8 @@
   }
   
   .texto--inicio {  
-    text-align: left;    
+    text-align: left;
+    width: 50%;    
   }
   
 } 

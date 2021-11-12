@@ -12,7 +12,7 @@
 
 .menu-hamburguer {
   font-family: 'Montserrat', sans-serif;
-  background: var(--cor5);
+  background: var(--cor1);
   padding: 6rem 0 0 25px;
   position: fixed;
   display: none;
@@ -25,12 +25,13 @@
 
 .menu-hamburguer__item a {
   font-size: 16px;
-  color: #000;
+  color: var(--cor5);
   font-weight: bold;
 }
 
 @media screen and (max-width: 650px) {
   .hamburger {
     display: inherit;
+    
   }
 }
