@@ -1,0 +1,26 @@
+.programas {
+  background: var(--cor5);
+  padding: 4rem 3rem;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(5, auto);
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.programa {
+  display: flex;
+}
+
+.programa__imagem {
+  width: 75px;
+  height: 75px;
+  margin-right: 1rem;
+}
+
+.programa__titulo {
+  font: 700 1.5rem var(--fonte-texto);
+  color: var(--cor1);
+  margin-bottom: 0.5em;
+}

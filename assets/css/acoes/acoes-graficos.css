@@ -1,0 +1,6 @@
+.acoes__titulo__graficos {
+  text-align: center;
+  font: 700 1.5rem var(--fonte-texto);
+  color: var(--cor1);
+  margin-bottom: 3rem;
+}
