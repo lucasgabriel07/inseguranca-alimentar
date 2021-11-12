@@ -1,25 +1,42 @@
-.textos__inicio {
-  width: 40rem;
-  height: 40rem;  
-}
-
 .titulo--inicio {
-  margin-bottom: 1.5rem;
-  font-size: 3rem;
-}
-
-.texto--inicio {  
-  margin-bottom: 1.5rem; 
-}
-
-.titulo__grafico {
-  width: 80%;
   text-align: center;
-  margin: 5rem auto; 
-  font-size: 2.25rem;  
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 5rem;
+}
+.texto--inicio {  
+  text-align: left;
+  padding-bottom: 1rem;    
 }
 
-.texto__grafico--inseguranca {
-  width: 30rem;
-  height: auto;
+
+@media  screen and (min-width: 768px) {
+  .textos__inicio {   
+    align-items: center;    
+  }
+  .titulo--inicio{
+    text-align: center;
+    font-size: 3rem;    
+    padding-bottom: 2rem;
+  }
+  
+  .texto--inicio {  
+    text-align: left;
+    margin-bottom: 1.5rem; 
+  }
 }
+
+@media  screen and (min-width: 963px) {
+  .textos__inicio {    
+    width: 70%;    
+  }
+  
+  .titulo--inicio{
+    text-align: left;
+    font-size: 5rem;
+  
+  }
+  
+  
+  
+} 

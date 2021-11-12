@@ -1,3 +1,20 @@
+.titulo--grafico--inseguranca {
+  font-size: 1.125rem;
+  margin-bottom: 2.875rem;
+}
+
+.texto__grafico--inseguranca {
+  text-align: left; 
+  width: 100%;  
+  margin-bottom: 2.875rem;
+} 
+
+.grafico--inseguranca {
+  margin: 0 auto 2.875rem auto;
+  display: block;
+  width: 70%;  
+} 
+
 .titulo--brasil {
   margin-bottom: 2.875rem;
   width: 12em;
@@ -13,8 +30,35 @@
   text-align: center;
   width: 20em;
 }
+@media screen and (min-width: 768px) {
+  .conteudo__grafico--inseguranca {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    align-items: center;
+    padding: 3rem 0;
+  }
+}
 
 @media screen and (min-width: 963px) {
+  .texto__grafico--inseguranca {
+    text-align: left; 
+    width: 60%;  
+  } 
+
+  .titulo--grafico--inseguranca {
+    font-size: 2.25rem;
+    width: 80%;    
+    text-align: center;
+    margin: 2rem auto; 
+  }
+
+  .grafico--inseguranca {
+    width: 30rem;
+    height: auto;
+  } 
+
   .titulo--brasil {
     margin-bottom: 5rem;
   }

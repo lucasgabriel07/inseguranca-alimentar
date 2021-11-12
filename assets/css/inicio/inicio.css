@@ -1,19 +1,17 @@
 .secao__inicio {
-  padding-top: 15rem;
+  height: 100vh;
 }
 
-.conteudo__inicio--pandemia {
-  display: flex;
-  justify-content: space-between;
-  align-items: top; 
-  gap: 2rem; 
-}
+@media  screen and (min-width: 963px) {
+  .conteudo__inicio--pandemia { 
+    display: flex;   
+    justify-content: center;
+    gap: 2rem;
+    align-items: flex-end;
 
-.conteudo__grafico {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 2rem;
-  justify-content: space-around;
-  align-items: center;
-}
+  }
+  
+} 
+
+
 
