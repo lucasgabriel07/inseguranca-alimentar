@@ -1,0 +1,8 @@
+.footer__inicio {
+    align-items: center;
+    background: var(--cor5);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 30px;
+}

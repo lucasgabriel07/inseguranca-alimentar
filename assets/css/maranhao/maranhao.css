@@ -28,16 +28,22 @@
   width: 15rem;
 }
 
-@media screen and (min-width: 963px) {
+@media screen and (min-width:768px){
   .titulo--maranhao {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
   }
 
   .maranhao__dados {
     display: flex;
     justify-content: space-between;
-    gap: 4rem;
-    margin-bottom: 8rem;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .dados__imagem {
+    width: 381px;
+    height: 374px;;
   }
 
   .dados__texto {
@@ -52,12 +58,33 @@
   .rendimentoCor__dados {
     width: 47%;
     justify-content: space-between;
-    gap: 5rem;
+    gap: 3;
     margin: 0;
   }
 
   .rendimentoCor__dados .texto--destaque{
     width: 100%;
   }
+}
+
+@media screen and (min-width: 963px) {
+  .titulo--maranhao {
+    margin-bottom: 5rem;
+  }
+
+  .maranhao__dados {
+    gap: 2.5rem;
+    margin-bottom: 8rem;
+  }
+
+  .dados__imagem {
+    width: 478px;
+    height: 483px;;
+  }
+
+  .rendimentoCor__dados {
+    gap: 5rem;
+  }
+
 }
 

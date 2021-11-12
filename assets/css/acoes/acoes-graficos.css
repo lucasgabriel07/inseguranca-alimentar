@@ -3,20 +3,35 @@
   font: 700 1rem var(--fonte-texto);
   color: var(--cor1);
   margin-bottom: 2.875rem;
+  text-transform: uppercase;
 }
 
-.acoes__graficos__imagem{
+.acoes__graficos__imagens{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 1rem;
   margin-bottom: 2.875rem;
+}
+
+@media screen and (min-width:768px){
+  .acoes__graficos__imagens{
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
+
 }
 
 @media screen and (min-width:963px){
   .acoes__graficos__titulo {
-    text-align: center;
     font-size: 1.5rem;
     margin-bottom: 3rem;
   }
 
-  .acoes__graficos__imagem{
+  .acoes__graficos__imagens{
     margin-bottom: 5rem;
+    gap: 1.5rem;
   }
+
 }

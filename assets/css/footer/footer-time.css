@@ -1,0 +1,43 @@
+.footer__time {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: auto;
+    gap: 10px 20px;
+    margin-top: 30px;
+}
+
+.membro {
+    margin-bottom: 10px;
+}
+
+.link {
+    color: var(--cor1);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+}
+
+.link:hover {
+    color: #0A66C2;
+}
+
+.logo-linkedin {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background: url('../../img/logo-linkedin-preto.png');
+    background-size: cover;
+    transition: 1s;
+}
+
+.link:hover .logo-linkedin {
+    background: url('../../img/logo-linkedin.png');
+    background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__time {
+        grid-template-columns: 50% 50%;
+    }
+}

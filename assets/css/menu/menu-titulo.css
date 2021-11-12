@@ -5,3 +5,9 @@
 .menu__titulo:last-child {
     margin-right: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .menu__titulo {
+        margin-right: 20px;
+    }
+}
