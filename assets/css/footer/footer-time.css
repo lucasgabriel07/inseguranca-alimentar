@@ -1,0 +1,38 @@
+.footer__time {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.membro {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.link {
+    color: var(--cor1);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+}
+
+.link:hover {
+    color: #0A66C2;
+}
+
+.logo-linkedin {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background: url('../../img/logo-linkedin-preto.png');
+    background-size: cover;
+    transition: 1s;
+}
+
+.link:hover .logo-linkedin {
+    background: url('../../img/logo-linkedin.png');
+    background-size: cover;
+}
