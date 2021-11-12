@@ -1,68 +1,77 @@
-.programas {
+.titulo--solucoes {
+  margin-bottom: 2.875rem;
+}
+
+.texto--solucoes {
+  margin-bottom: 1.5em;
+}
+
+.listaSolucoes {
   background: var(--cor5);
   padding: 2rem 1.5rem;
   border-radius: 30px;
   display: grid;
-  grid-template-rows: repeat(10, auto);
+  grid-template-rows: repeat(6, auto);
   gap: 1rem;
   margin-bottom: 2.875rem;
 }
 
-.programa {
+.listaSolucoes__solucao {
   display: flex;
+  align-items: center;
 }
 
-.programa__imagem {
+.listaSolucoes__imagem {
   width: 30px;
   height: 30px;
+  border-radius: 50%;
   margin-right: 1rem;
 }
 
-.programa__titulo {
-  font: 700 0.75rem var(--fonte-texto);
+.texto--listaSolucoes {
   color: var(--cor1);
-  margin-bottom: 0.5em;
-}
-
-.texto--programa {
-  font-size: 0.75rem;
 }
 
 @media screen and (min-width:768px){
-  .programas {
+  .titulo--solucoes {
+    margin-bottom: 3rem;
+  }
+
+  .listaSolucoes {
     padding: 3rem 2rem;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
     gap: 1.5rem;
     margin-bottom: 3rem;
   }
 
-  .programa__imagem {
+  .listaSolucoes__imagem {
     width: 50px;
     height: 50px;
     margin-right: 1.5rem;
   }
-   
 }
 
 @media screen and (min-width:963px){
-  .programas {
+  .titulo--solucoes {
+    margin-bottom: 5rem;
+  }
+
+  .texto--solucoes {
+    margin-bottom: 3em;
+  }
+
+  .listaSolucoes {
     padding: 4rem 3rem;
     gap: 2rem;
     margin-bottom: 5rem;
   }
 
-  .programa__imagem {
+  .listaSolucoes__imagem {
     width: 75px;
     height: 75px;
     margin-right: 1rem;
   }
-  .programa__titulo {
-    font-size: 1.5rem;
-  }
-
-  .texto--programa {
-    font-size: 1rem;
-  }
   
+
 }

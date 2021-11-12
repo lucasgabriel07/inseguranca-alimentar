@@ -29,6 +29,8 @@
   <link rel="stylesheet" href="assets/css/acoes/acoes-programas.css">
   <link rel="stylesheet" href="assets/css/acoes/acoes-graficos.css">
 
+  <link rel="stylesheet" href="assets/css/solucoes/solucoes.css">
+
   <link rel="stylesheet" href="assets/css/footer/footer.css">
   <link rel="stylesheet" href="assets/css/footer/footer-inicio.css">
   <link rel="stylesheet" href="assets/css/footer/footer-time.css">
@@ -43,16 +45,19 @@
 <body>
   <!--Recurso para leitores de tela (curso de acessibilidade)-->
   <a class="pularNavegacao" href="#conteudoPrincipal">Pular para conteúdo principal</a>  
-  <header class="header container">
-    <img class="logo" src="assets/img/logo.png" alt="">
-    <nav class="menu">
-      <ul class="menu__lista">
-        <li class="menu__titulo"><a class="menu__link ativo" href="#inicio">Início</a></li>
-        <li class="menu__titulo"><a class="menu__link" href="#brasil">Brasil</a></li>
-        <li class="menu__titulo"><a class="menu__link" href="#maranhao">Maranhão</a></li>
-        <li class="menu__titulo"><a class="menu__link" href="#acoes">Ações</a></li>        
-      </ul>
-    </nav>
+  <header class="header">
+    <div class="container container--header">
+      <img class="logo" src="assets/img/logo.png" alt="">
+      <nav class="menu">
+        <ul class="menu__lista">
+          <li class="menu__titulo"><a class="menu__link ativo" href="#inicio">Início</a></li>
+          <li class="menu__titulo"><a class="menu__link" href="#brasil">Brasil</a></li>
+          <li class="menu__titulo"><a class="menu__link" href="#maranhao">Maranhão</a></li>
+          <li class="menu__titulo"><a class="menu__link" href="#acoes">Ações</a></li>
+          <li class="menu__titulo"><a class="menu__link" href="#solucoes">Soluções</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
     <section class="secao secao__inicio container" id="inicio">
@@ -212,6 +217,48 @@
         <img class="acoes__graficos__imagem" src="assets/img/estado-nutricional-no-maranhao-3.png" alt="">
         <img class="acoes__graficos__imagem" src="assets/img/estado-nutricional-no-maranhao-4.png" alt="">
       </div>
+    </section>
+    <section class="secao secao__acoes container" id="solucoes">
+      <h2 class="titulo titulo--solucoes">Possíveis soluções</h2>
+      <p class="texto texto--solucoes">Vimos que até 2018 o Maranhão era o estado com o maior número de domicílios em situação de insegurança alimentar do Brasil. No entanto, ações do Governo do Estado contribuíram para melhorar significativamente esse cenário, especialmente entre crianças e adolescentes. A partir da experiência maranhense e de publicações da Organização da Nações Unidas, chegamos a algumas possíveis soluções para o problema.</p>
+      <ul class="listaSolucoes">
+        <li>
+          <div class="listaSolucoes__solucao">
+            <img class="listaSolucoes__imagem" src="assets/img/producao-sustentavel.png" alt="">
+            <p class="texto texto--listaSolucoes">Produção sustentável de alimentos</p>
+          </div>
+        </li>
+        <li>
+          <div class="listaSolucoes__solucao">
+            <img class="listaSolucoes__imagem" src="assets/img/coop-internacional.png" alt="">
+            <p class="texto texto--listaSolucoes">Cooperação internacional</p>
+          </div>
+        </li>
+        <li>
+          <div class="listaSolucoes__solucao">
+            <img class="listaSolucoes__imagem" src="assets/img/desperdicio.png" alt="">
+            <p class="texto texto--listaSolucoes">Programas de mitigação de desperdício de gêneros alimentícios</p>
+          </div>
+        </li>
+        <li>
+          <div class="listaSolucoes__solucao">
+            <img class="listaSolucoes__imagem" src="assets/img/produtores-rurais.png" alt="">
+            <p class="texto texto--listaSolucoes">Incentivo ao aumento da produtividade e renda dos pequenos produtores rurais</p>
+          </div>
+        </li>
+        <li>
+          <div class="listaSolucoes__solucao">
+            <img class="listaSolucoes__imagem" src="assets/img/transferencia-renda.png" alt="">
+            <p class="texto texto--listaSolucoes">Políticas Públicas de transferência de renda</p>
+          </div>
+        </li>
+        <li>
+          <div class="listaSolucoes__solucao">
+            <img class="listaSolucoes__imagem" src="assets/img/nutricao.jpg" alt="">
+            <p class="texto texto--listaSolucoes">Oferta de refeições nutricionalmente adequadas a preços acessíveis</p>
+          </div>
+        </li>
+      </ul>
     </section>
   </main>
   <footer class="footer">
