@@ -2,6 +2,7 @@
   margin: 0 auto;
   display: block;
   width: 80%;
+  margin-top: 2.5rem;
 }
 
 @media  screen and (min-width: 768px) {
@@ -14,8 +15,8 @@
 @media  screen and (min-width: 963px) {
   .imagem__inicio {
     width: 40%;
+    margin-top: 0;
   }
-
 } 
 
 

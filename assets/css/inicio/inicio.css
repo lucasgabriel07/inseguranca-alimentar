@@ -4,13 +4,16 @@
 
 .container--inicio {
   height: 100vh;
-  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media  screen and (min-width: 963px) {
   .container--inicio {
-    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding-top: 8rem;
   }
   

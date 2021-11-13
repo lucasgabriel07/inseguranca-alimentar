@@ -2,12 +2,11 @@
   text-align: center;
   font-size: 1.5rem;
   padding-bottom: 2rem;
-  padding-top: 5rem;
 }
 
 .texto--inicio {  
   text-align: center;
-  padding-bottom: 3rem;    
+  /* padding-bottom: 2rem;     */
 }
 
 
@@ -18,20 +17,13 @@
     padding-bottom: 3rem;
     
   }
-
-  .textos__inicio {   
-    align-items: center;    
-  }
-
 }
 
 @media  screen and (min-width: 963px) {
-  .textos__inicio { 
+  .conteudo__inicio { 
     display: flex; 
     justify-content: space-between; 
-    align-items: flex-end; 
-      
-    padding-bottom: 0;  
+    align-items: center; 
   }
   
   .titulo--inicio{
@@ -42,7 +34,7 @@
   
   .texto--inicio {  
     text-align: left;
-    width: 50%;    
+    width: 80%;    
   }
   
 } 
