@@ -7,9 +7,6 @@
 @media  screen and (min-width: 768px) {
   .imagem__inicio {
     width: 60%;
-    
-    /* padding-bottom: 3rem; */
-      
   }
 
 } 
@@ -17,9 +14,6 @@
 @media  screen and (min-width: 963px) {
   .imagem__inicio {
     width: 40%;
-    
-    /* padding-bottom: 3rem; */
-      
   }
 
 } 
