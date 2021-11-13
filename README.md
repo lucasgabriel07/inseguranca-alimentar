@@ -4,6 +4,8 @@ Landing Page com dados sobre a insegurança alimentar no Maranhão, estado que t
 
 Projeto referente ao 1º Desafio Integrado do Programa Trilhas Inova.
 
+Disponível em: https://lucasgabriel07.github.io/inseguranca-alimentar/
+
 **"O combate à fome é uma responsabilidade global."**
 
 ## Linguagens Utilizadas
